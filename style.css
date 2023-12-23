@@ -3,95 +3,124 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
+}
+.vincenthorcasitas {
+  font-size: 12.5px;
+  color: #6b584a;
 }
 .navbar {
   display: flex;
   justify-content: space-around;
   padding-left: 1%;
   padding-right: 1%;
-  height: 30px;
+  height: 39px;
   align-items: center;
   background-color: #88c1d9;
-  font-size: 14px;
+  font-size: 14.3px;
+}
+#searchicon {
+  font-size: 17px;
 }
 a {
+  text-decoration: none;
   color: #412c14;
 }
 .hide {
   display: none;
   position: absolute;
-  top: 165px;
+  top: 187px;
+  background-color: #88c1d9;
 }
 nav ul li a {
-  padding: 6.5px;
+  padding: 11px;
 }
 nav ul li ul li {
   border-bottom: 1px solid white;
   background-color: #88c1d9;
-  padding-top: 6.5px;
-  padding-bottom: 6.5px;
-}
-nav ul li ul li a {
-  color: white;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 nav ul li a:hover + .hide {
   display: block;
-}
-nav ul li a:hover {
+  background-color: #88c1d9;
   color: white;
-  background-color: #412c14;
+}
+.hide:hover {
+  display: block;
+}
+.navbar li:hover .mainmenu_anchor {
+  background: #412c14;
+  color: white;
+}
+.submenu_anchor:hover {
+  background: #412c14;
+  color: white;
+}
+.hide a {
+  color: white;
+}
+a:hover {
+  color: white;
 }
 .searchbar {
   display: flex;
-  height: 25px;
+  height: 28.5px;
   margin-top: 49px;
-  width: 280px;
+  width: 40%;
 }
 .search,
 button {
   border: none;
 }
-input,
-button {
-  padding: 2px 6px;
-  background-color: #5a4738;
-  color: grey;
-}
 input {
-  width: 1840px;
+  padding: 14px 6px;
+  background-color: #5a4738;
+  width: 320px;
+  color: #9b8a7c;
+}
+button {
+  position: relative;
+  left: -26px;
+  background-color: #5a4738;
+  height: 10.5px;
+  margin-top: 6px;
 }
 .contact {
   display: flex;
   gap: 1%;
   justify-content: center;
   font-size: 13px;
-  height: 25px;
+  height: 29px;
   align-items: center;
+  letter-spacing: 1p;
+  color: #412c14;
 }
 .heading {
   display: flex;
-  gap: 14%;
-  padding-left: 34%;
+  gap: 14.5%;
+  padding-left: 33%;
   align-items: center;
-  height: 110px;
+  height: 120px;
   background-color: #412c14;
 }
 img {
-  width: 360px;
-  height: 75px;
+  width: 390px;
+  height: 80px;
 }
 .seperate {
   margin-left: 8px;
 }
-.phone,
+.phone {
+  font-size: 13px;
+}
 .website {
-  font-size: 12px;
+  font-size: 14.5px;
 }
 ::placeholder {
   color: #9b8a7c;
-  font-size: 13px;
+  font-size: 16px;
 }
 .searchicon {
   color: rgb(223, 220, 220);
